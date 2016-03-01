@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>airbnb</title>
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="cover">
+        <nav class="regular-nav">
+          <a href="#">
+            <img src="img/download.png" alt="" />
+          </a>
+          <a class="btn hdr-btn" href="/rooms/new">
+            <span class="btn btn-small">Become a Host</span>
+          </a>
+          <a class="hdr-btn js-help-toggle link-reset needsclick" href="/help" data-reactid=".3.0"><span>Help</span>
+          </a>
+          <a data-signup-modal="" data-header-view="true" href="/signup_login" data-redirect="redirect_params[action]=show&amp;redirect_params[controller]=homepages" class="hdr-btn link-reset">Sign Up</a>
+          <a data-login-modal="" href="/login" data-redirect="redirect_params[action]=show&amp;redirect_params[controller]=homepages" class="hdr-btn link-reset">Log In
+          </a>
+        </nav>
+        <form  class="flex-form">
+
+          <input type="search" placeholder="Where do you want to go?">
+
+          <label for="from">From</label>
+          <input type="date" name="from">
+
+          <label for="from">To</label>
+          <input type="date" name="to">
+
+          <select name="" id="">
+            <option value="1">1 Guest</option>
+            <option value="2">2 Guest</option>
+            <option value="3">3 Guest</option>
+            <option value="4">4 Guest</option>
+            <option value="5">5 Guest</option>
+          </select>
+
+          <input type="submit" value="Search">
+
+        </form>
+      </div>
+      <div class="goatContainer">
+        <video autoplay loop class="goat">
+            <source src="Go-Goat.mp4" type="video/mp4" />
+        </video>
+      </div>
+
+  </body>
+</html>
